@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciências da Computação</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5 + Jquery/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div id="div-img-menu" class="card">
+            <img id="img-menu" src="imagens/img-menu.jpg" class="img-fluid" alt="...">
+        </div>
+
+        <div id="div-titulo" class="card text-truncate">
+            <h4>Ciência da Computação</h4>
+            <p><i>Descobrindo a Matrix</i></p>
+        </div>
+
+        <nav>
+            <button type="button" class="btn btn-outline-primary botao-menu" onclick="selecionaPagina('introducao')">Introdução</button>
+            <button type="button" class="btn btn-outline-primary botao-menu" onclick="selecionaPagina('recursos')">Recursos</button>
+            <button type="button" class="btn btn-outline-primary botao-menu" onclick="selecionaPagina('galeria')">Galeria</button>
+            <button type="button" class="btn btn-outline-primary botao-menu" onclick="selecionaPagina('contato')">Contato</button>
+        </nav>
+
+        <div id="div-aluno" class="card text-truncate">
+            <p><i>Trabalho realizado pelo Aluno:</i><br> Fernando Kramer de Souza</p>
+        </div>
+
+        <div id="div-redes-sociais" class="card text-truncate">
+            <div class="card-body">
+                <a href="https://github.com/FernandoKramerFKS"><img src="icones/github.png" alt=""></a>
+                <a href="https://www.facebook.com/fernando.kramer.735"><img src="icones/facebook.png" alt=""></a>
+                <a href="https://www.google.com/"><img src="icones/google-plus.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/fernando-kramer-3984751b7/"><img src="icones/linkdin.png" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=5545998545819"><img src="icones/whatsapp.png" alt=""></a>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div id="introducao" class="div-pagina">
+            <img id="img-introducao" src="imagens/img-primeiro-computador.jpg" class="img-fluid rounded float-end">
+            <h3 class="fonte-titulo">Os Primeiros Computadores</h3>
+            <p>&emsp;Em 1890, o norte americano Hermann Hollerith (1860-1929) desenvolve o primeiro computador mecânico. A partir de 1930, começam as pesquisas para 
+                substituir as partes mecânicas por elétricas. O Mark I, concluído em 1944 por uma equipe liderada por Howard Aiken, é o primeiro computador 
+                eletromecânico capaz de efetuar cálculos mais complexos sem a interferência humana. Ele mede 15 m x 2,5 m e demora 11 segundos para executar um cálculo. 
+                Em 1946, surge o Eniac (Electronic Numerical Integrator and Computer), primeiro computador eletrônico e digital automático: pesa 30 toneladas, emprega cerca de 18 mil 
+                válvulas e realiza 4.500 cálculos por segundo. O Eniac contém a arquitetura básica de um computador, empregada até hoje: memória principal (área de trabalho),
+                memória auxiliar (onde são armazenados os dados), unidade central de processamento (o "cérebro" da máquina, que executa todas as informações) e dispositivos de 
+                entrada e saída de dados que atualmente permitem a ligação de periféricos como monitor, teclado, mouse, scanner, tela, impressora, entre outros. A invenção do 
+                transistor, em 1947, substitui progressivamente as válvulas, aumentando a velocidade das máquinas.
+            </p>
+            <h4>Os Computadores Pessoais</h4>
+            <p>&emsp;O tamanho e o preço dos computadores começam a diminuir a partir da década de 50. Neste período, inicia-se a pesquisa dos circuitos integrados, os chips , 
+                responsáveis pela crescente miniaturização dos equipamentos eletrônicos. Em 1974, a Intel projeta o microprocessador - dispositivo que reúne num mesmo chip, 
+                todas as funções do processador central - tecnologia que permite a criação do computador pessoal, ou microcomputador. O primeiro computador pessoal é o Apple I, 
+                inventado em 1976 pelos americanos Steve Jobs (1955-) e Stephan Wozniak.
+            </p>
+            <p>&emsp;Em 1981, a IBM lança o seu PC (Personal Computer), que se torna um sucesso comercial. O sistema operacional usado é o MS-DOS, desenvolvido pela empresa de 
+                softwares Microsoft. Na época, Bill Gates , o dono da Microsoft, convence a IBM e as demais companhias a adotarem o sistema operacional de sua empresa. Isso 
+                permite que um mesmo programa funcione em micros de diversos fabricantes. Posteriormente, os PCs passam a usar microprocessadores cada vez mais potentes: 286, 
+                386SX, 386DX, 486SX, 486DX. O Pentium, que surge nos anos 90, é atualmente o processador mais avançado usado em PCs.
+            </p>
+            <p>&emsp;O único micro a fazer frente aos PCs é o Macintosh, lançado em 1984, que revoluciona o mercado ao promover o uso de ícones e do mouse. No ano seguinte, 
+                a Microsoft lança a interface gráfica Windows, adaptando para os PCs o uso de ícones e do mouse. O Windows só alcança sucesso a partir de 90, com a versão 3.0. 
+                A nova versão, lançada em 1995, totaliza 45,8 milhões de usuários registrados pela Microsoft em dezembro de 1996.
+            </p>
+            <p>&emsp;Na década de 90 surgem os computadores que, além do processamento de dados, reúnem fax, modem, secretária eletrônica, scanner, acesso à Internet e drive 
+                para CD-ROM. Os CDs-ROM, sigla de compact disc read-only memory, criados no início da década, são discos a laser que armazenam até 650 megabytes, 451 vezes 
+                mais do que um disquete (1,44 megabytes). Além de armazenar grande quantidade de texto, o CD-ROM tem capacidade de arquivar fotos, vídeos e animações. 
+                Em 1996 é anunciado o lançamento do DVD (digital vídeo disc), que nos próximos anos deve substituir o CD-ROM e as fitas de videocassete. O DVD é um 
+                compact-disc com capacidade de 4,7 gigabytes (cerca de 7 CDs-ROM). Segundo os fabricantes, terá a capacidade de vídeo de um filme de 135 minutos em 
+                padrão de compressão MPEG (tela cheia) e alta qualidade de áudio. Terá o mesmo diâmetro e espessura dos CDs atuais, mas será reproduzido em um driver 
+                específico, que também poderá ser ligado à televisão. Alguns CDs-ROM são interativos, ou seja, permitem que o usuário controle, à vontade, a navegação 
+                pelo seu conteúdo. Os computadores portáteis (laptops e palmtops), marcas da miniaturização da tecnologia, também se popularizam nos anos 90.
+            </p>
+            <p><i>Referências: Conteúdo na integra disponível em: <a href="http://www.ic.uff.br/~aconci/evolucao.html">Clique Aqui!</a></i></p>
+        </div>
+
+        <div id="recursos" class="div-pagina">
+            <img id="img-introducao" src="imagens/internet.jpg" class="img-fluid rounded float-end ">
+            <h3 class="fonte-titulo">A Internet e os seus Recursos</h3>
+            <p>&emsp;Das inúmeras utilidades proporcionadas pela Internet, podemos destacar alguns dos principais recursos:</p>
+            <ul>
+                <li class="fonte-titulo">O correio eletrônico</li>
+                <li class="fonte-titulo">A World Wide Web</li>
+                <li class="fonte-titulo">O Acesso remoto</li>
+                <li class="fonte-titulo">Colaboração</li>
+                <li class="fonte-titulo">Transmissão de mídia</li>
+                <li class="fonte-titulo">Voz sobre IP</li>
+            </ul>
+            <h5 class="fonte-titulo">O correio eletrônico</h5>
+            <p>&emsp;O correio eletrônico é um dos grandes recursos proporcionados pelo invento da Internet e consequentemente da Web. Trata-se de um método de envio e 
+                recebimento de mensagem por meio de sistemas eletrônicos de comunicação. O termo e-mail é aplicado tanto aos sistemas que utilizam a Internet e são 
+                baseados no protocolo SMTP, como aqueles sistemas conhecidos como intranets, que permitem a troca de mensagens dentro de uma empresa ou organização 
+                e são, normalmente, baseados em protocolos proprietários.
+            </p>
+            <p>&emsp;Existem sistemas para a utilização de correio eletrônico por meio da World Wide Web, os webmails. São utilizadas páginas web para a apresentação 
+                e utilização dos protocolos envolvidos no envio e recebimento de e-mail. Diferente de um aplicativo de acesso ao e-mail instalado num computador, que 
+                só pode ser acessado localmente pelo utilizador ou por meio de acesso remoto, o conteúdo pode ser acessado facilmente em qualquer lugar por meio de um 
+                sistema de autenticação pela WWW.
+            </p>
+            <h5 class="fonte-titulo">World wide web</h5>
+            <p>&emsp;Por meio de páginas web classificadas por motores de busca e organizadas em sites web, milhares de pessoas possuem acesso instantâneo a uma vasta 
+                gama de informação on-line em hipermídia. Comparado às enciclopédias e bibliotecas tradicionais, a WWW permitiu uma extrema descentralização da informação 
+                e dos dados. Isso inclui a criação ou popularização de tecnologias como páginas pessoais, weblogs e redes sociais, no qual qualquer um com acesso a um navegador 
+                (um programa de computador para acessar a WWW) pode disponibilizar conteúdo.
+            </p>
+            <h5 class="fonte-titulo">Acesso remoto</h5>
+            <p>&emsp;Pela Internet é possível que utilizadores de computadores possam realizar conexões com outros computadores facilmente, mesmo estando em localidades 
+                distantes no mundo. Esse acesso remoto pode ser feito de forma segura, com autenticação e criptografia de dados, se necessário.
+            </p>
+            <p>&emsp;Isto está encorajando novos meios de se trabalhar de casa, a colaboração e o compartilhamento de informações em muitas empresas</p>
+            <h5 class="fonte-titulo">Colaboração</h5>
+            <p>&emsp;O chat, as redes sociais e os sistemas de mensagens instantâneas são tecnologias que também utilizam a Internet como meio de troca de ideias e colaboração. 
+                Mesmo o correio eletrônico é tido atualmente como uma ferramenta de trabalho colaborativo. Ainda bastante usado em ambientes corporativos, vêm perdendo espaço 
+                entre utilizadores pessoais para serviços como mensagem instantânea e redes sociais devido ao dinamismo e pluralidade de opções fornecidas por esses dois
+            </p>
+            <p>&emsp;Outra aplicação de colaboração na Internet são os sistemas wiki, que utilizam a World Wide Web para realizar colaboração, fornecendo ferramentas como 
+                sistema de controle de versão e autenticação de utilizadores para a edição on-line de documentos.
+            </p>
+            <h5 class="fonte-titulo">Transmissão de mídia</h5>
+            <p>&emsp;O Streaming é uma forma de distribuir informação multimídia em uma rede por meio de pacotes. É muito utilizada para distribuir conteúdo por meio da Internet.</p>
+            <p>&emsp;Atualmente, com o advento de tecnologias como o ADSL (Asymmetric Digital Subscriber Line), a Internet via Cabo, rádio, fibra ótica, permitem novos negócios 
+                na Internet, como por exemplo, o vídeo sob demanda (video on demand). Também já é possível assistir a vídeos em streaming via telefone celular ou na tela de seu 
+                computador. É uma tecnologia que tem possibilitado a muitas pessoas em todo o mundo terem acesso a conteúdo por meio da internet. Por exemplo, se estamos no Brasil, 
+                podemos assistir e escutar TVs e Rádios em outros países sem necessidade de sair do local, somente por meio de um computador ligado à Internet.
+            </p>
+            <h5 class="fonte-titulo">Voz sobre IP</h5>
+            <p>&emsp;VoIP significa "Voice-over-Internet Protocol" (Voz sobre Protocolo de Internet), referindo-se ao protocolo que acompanha toda comunicação na Internet</p>
+            <p>&emsp;O VoIP está se amadurecendo como uma alternativa competitiva ao serviço tradicional de telefonia. A interoperabilidade entre diferentes provedores melhorou 
+                e a capacidade de realizar ou receber uma ligação de telefones tradicionais está disponível. Adaptadores de redes VoIP simples e baratos estão disponíveis, que 
+                eliminam a necessidade de um computador pessoal.
+            </p>
+            <p><i>Referências: Conteúdo na integra disponível em:<a href="https://siteantigo.portaleducacao.com.br/conteudo/artigos/informatica/a-internet-e-os-seus-servicos/42897">Clique Aqui!</a></i></p>
+        </div>
+
+        <div id="galeria" class="div-pagina">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
+    
+                    <div class="col">
+                        <div style="padding: 0%;" class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/memoria-ram.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    Memória Ram
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/hd-esterno.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    Hard Disk - HD
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/hd-interno.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    Agúlha do HD
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/placa-de-video.webp" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    Placa de Vídeo
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/placa-mae.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    Placa Mãe
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/processador.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    Processador
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/ssd-2.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    SSD M2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/ssd.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    SSD Convencional
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="p-3 border bg-light card-galeria">
+                            <img src="img-galeria/mouse.jpg" class="img-fluid img-galeria" alt="...">
+                            <div class="card card-galeria">
+                                <div class="card-body">
+                                    Mouse
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+              </div>
+        </div>
+
+        <div id="contato" class="div-pagina">
+            <img id="img-contato" src="imagens/Fernando.jpg" class="img-fluid rounded float-end ">
+               <h3 style="margin-left: 10%;">Contatos</h3>
+               <ul style="margin-left: 10%;">
+                <li class="fonte-titulo">Aluno: <p>Fernando Kramer de Souza</p></li>
+                <li class="fonte-titulo">Curso: <p>Ciência da Computação 8º Período</p></li>
+                <li class="fonte-titulo">Matéria: <p>Ciência da Computação 1</p></li>
+                <li class="fonte-titulo">Telefone: <p>(45) 9 9854-5819</p></li>
+                <li class="fonte-titulo">E-mail: <p>Fernando.Kramer.FKS@gmail.com</p></li>
+                <li class="fonte-titulo">Foco: <p><i>Desenvolvimento Front-end!</i></p></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <script src="bootstrap-5 + Jquery/js/jquery.js"></script>
+        <script src="bootstrap-5 + Jquery/js/bootstrap.bundle.min.js"></script>
+        <script>
+            function selecionaPagina(pagina){
+                switch (pagina){
+                    case 'introducao':
+                        console.log("introducao")
+                        document.getElementById('introducao').style.display = "block";
+                        document.getElementById('recursos').style.display = "none";
+                        document.getElementById('galeria').style.display = "none";
+                        document.getElementById('contato').style.display = "none";
+                        break;
+                    case 'recursos':
+                        console.log("recursos")
+                        document.getElementById('introducao').style.display = "none";
+                        document.getElementById('recursos').style.display = "block";
+                        document.getElementById('galeria').style.display = "none";
+                        document.getElementById('contato').style.display = "none";
+                        break;
+                    case 'galeria':
+                        console.log("galeria")
+                        document.getElementById('introducao').style.display = "none";
+                        document.getElementById('recursos').style.display = "none";
+                        document.getElementById('galeria').style.display = "block";
+                        document.getElementById('contato').style.display = "none";
+                        break;
+                    case 'contato':
+                        console.log("contato")
+                        document.getElementById('introducao').style.display = "none";
+                        document.getElementById('recursos').style.display = "none";
+                        document.getElementById('galeria').style.display = "none";
+                        document.getElementById('contato').style.display = "block";
+                        break;
+                }
+            }
+        </script>
+    </footer>
+</body>
+</html>
